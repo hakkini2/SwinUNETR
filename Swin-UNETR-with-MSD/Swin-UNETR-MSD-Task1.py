@@ -60,5 +60,19 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:128"
 
 
 
+# LOAD DATASET
+data_dir = "data/Task01_BrainTumour"
+split_json = "dataset.json"
+
+datasets = data_dir + split_json
+datalist = load_decathlon_datalist(datasets, True, "training")
+
+# make a 80%/20% training/validation split
+
+
+
+
+
+
 
 
