@@ -39,6 +39,11 @@ import torch
 
 print_config()
 
+'''
+Code template from this tutorial:
+https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/swin_unetr_btcv_segmentation_3d.ipynb
+'''
+
 # SETUP DATA DIRECTORY
 os.environ["MONAI_DATA_DIRECTORY"] = "/u/08/hakkini2/unix/ComputerVision/SwinUNETR/tutorial-BTCV/"
 directory = os.environ.get("MONAI_DATA_DIRECTORY")
@@ -294,7 +299,7 @@ print(f"train completed, best_metric: {dice_val_best:.4f} " f"at iteration: {glo
 
 
 #--------------------------------------------------------
-#PLOT THE LSOS AND METRIC
+#PLOT THE LOSS AND METRIC
 
 plt.figure("train", (12, 6))
 plt.subplot(1, 2, 1)
