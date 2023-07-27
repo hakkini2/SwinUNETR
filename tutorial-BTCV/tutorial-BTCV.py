@@ -45,7 +45,7 @@ https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/swin_unetr_
 '''
 
 # SETUP DATA DIRECTORY
-os.environ["MONAI_DATA_DIRECTORY"] = "/u/08/hakkini2/unix/ComputerVision/SwinUNETR/tutorial-BTCV/"
+os.environ["MONAI_DATA_DIRECTORY"] = "/u/08/hakkini2/unix/ComputerVision/CLIP-and-SwinUNETR/tutorial-BTCV"
 directory = os.environ.get("MONAI_DATA_DIRECTORY")
 root_dir = tempfile.mkdtemp() if directory is None else directory
 print(root_dir)
