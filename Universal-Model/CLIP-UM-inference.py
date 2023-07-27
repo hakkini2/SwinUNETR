@@ -18,7 +18,7 @@ from monai.transforms import (
 )
 
 # SETUP DATA DIRECTORY
-os.environ["MONAI_DATA_DIRECTORY"] = "/u/08/hakkini2/unix/ComputerVision/CLIP-and-SwinUNETR/CLIP-Driven-Universal-Model/"
+os.environ["MONAI_DATA_DIRECTORY"] = "/u/08/hakkini2/unix/ComputerVision/CLIP-and-SwinUNETR/Universal-Model/"
 directory = os.environ.get("MONAI_DATA_DIRECTORY")
 root_dir = tempfile.mkdtemp() if directory is None else directory
 print(root_dir)
