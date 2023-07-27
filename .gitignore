@@ -2,4 +2,4 @@ tutorial-BTCV/data/
 tutorial-BTCV/best_metric_model.pth
 tutorial-BTCV/model_swinvit.pt
 Swin-UNETR-with-MSD/data/
-CLIP-Driven-Universal-Model/swinunetr.pth
+
